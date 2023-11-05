@@ -35,8 +35,6 @@ with st.expander("3 - Instruction 'if', 'else' et 'elif'"):
     code = '''a=int(input("Valeur de a"))
         if a==5 :
             print("a est un nombre premier compris entre 1 et 10")
-        elif a==1 :
-            print("a est un nombre premier compris entre 1 et 10")
         elif a==2 or 3 or 7 :
             print("a est un nombre premier compris entre 1 et 10")
         else :
